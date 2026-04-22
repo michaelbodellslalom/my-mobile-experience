@@ -22,16 +22,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
 }
 
 @media (min-width: 1024px) {
   .topBar {
     padding: 0 var(--space-xl);
-  }
-  
-  .topBarContent {
-    max-width: var(--max-content-width);
   }
 }
 
