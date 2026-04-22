@@ -4,6 +4,14 @@
   box-shadow: var(--shadow-md);
   padding: var(--space-lg);
   margin-bottom: var(--space-md);
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .dashboard {
+    padding: var(--space-xl);
+    margin-bottom: 0;
+  }
 }
 
 .title {

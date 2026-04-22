@@ -7,13 +7,15 @@ function Layout({ children }) {
     <div className={styles.layout}>
       {/* Top Bar */}
       <header className={styles.topBar}>
-        <div className={styles.logo}>
-          <Leaf className={styles.leafIcon} size={24} />
-          <span>Green Leaf Market</span>
+        <div className={styles.topBarContent}>
+          <div className={styles.logo}>
+            <Leaf className={styles.leafIcon} size={24} />
+            <span>Green Leaf Market</span>
+          </div>
+          <button className={styles.profileButton} aria-label="Profile">
+            <User size={24} color="var(--forest-green)" />
+          </button>
         </div>
-        <button className={styles.profileButton} aria-label="Profile">
-          <User size={24} color="var(--forest-green)" />
-        </button>
       </header>
 
       {/* Main Content */}

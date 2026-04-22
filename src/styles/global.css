@@ -59,7 +59,8 @@
   /* Layout */
   --top-bar-height: 56px;
   --bottom-nav-height: 64px;
-  --max-content-width: 428px;
+  --max-content-width: 1200px;
+  --mobile-max-width: 428px;
   
   /* Touch Targets */
   --min-touch-target: 44px;
@@ -279,6 +280,19 @@ button:disabled {
 @media (min-width: 768px) {
   .container {
     padding: 0 var(--space-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --font-size-hero: 56px;
+    --font-size-h1: 32px;
+    --font-size-h2: 24px;
+  }
+  
+  .container {
+    max-width: var(--max-content-width);
+    padding: 0 var(--space-xxl);
   }
 }
 

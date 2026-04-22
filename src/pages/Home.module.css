@@ -2,6 +2,18 @@
   padding-top: var(--space-lg);
 }
 
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .dashboardGrid {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
 .offersSection {
   margin-top: var(--space-xl);
 }
@@ -21,6 +33,22 @@
   margin: 0 calc(var(--space-md) * -1);
   padding-left: var(--space-md);
   padding-right: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .offersScroll {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    overflow-x: visible;
+    scroll-snap-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .offersScroll > * {
+    scroll-snap-align: none;
+    width: 100%;
+  }
 }
 
 .offersScroll::-webkit-scrollbar {

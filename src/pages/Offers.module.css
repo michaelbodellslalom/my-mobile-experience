@@ -22,3 +22,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (min-width: 1024px) {
+  .offersGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+}

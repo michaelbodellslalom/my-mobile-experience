@@ -11,18 +11,18 @@ function Home() {
   return (
     <div className={styles.home}>
       <div className="container">
-        {/* Points Dashboard */}
-        <PointsDashboard 
-          points={userProfile.points}
-          monthlyPoints={userProfile.monthlyPoints}
-          pointsToNextReward={userProfile.pointsToNextReward}
-        />
-
-        {/* Impact Widget */}
-        <ImpactWidget 
-          plasticSaved={monthlyImpact.plasticSaved}
-          carbonOffset={monthlyImpact.carbonOffset}
-        />
+        {/* Dashboard Grid - Points and Impact */}
+        <div className={styles.dashboardGrid}>
+          <PointsDashboard 
+            points={userProfile.points}
+            monthlyPoints={userProfile.monthlyPoints}
+            pointsToNextReward={userProfile.pointsToNextReward}
+          />
+          <ImpactWidget 
+            plasticSaved={monthlyImpact.plasticSaved}
+            carbonOffset={monthlyImpact.carbonOffset}
+          />
+        </div>
 
         {/* Offers Section */}
         <section className={styles.offersSection}>

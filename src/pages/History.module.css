@@ -50,3 +50,13 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (min-width: 1024px) {
+  .impactSummary {
+    padding: var(--space-xl);
+  }
+  
+  .impactStats {
+    gap: var(--space-xxl);
+  }
+}

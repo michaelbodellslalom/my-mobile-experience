@@ -10,6 +10,18 @@
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
+@media (min-width: 768px) {
+  .card {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+}
+
 .card:active {
   transform: scale(0.98);
   box-shadow: var(--shadow-sm);
