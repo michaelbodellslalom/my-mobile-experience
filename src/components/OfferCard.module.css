@@ -1,7 +1,7 @@
 .card {
   position: relative;
-  width: 280px;
-  height: 160px;
+  width: 100%;
+  height: 220px;
   background: var(--white);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
@@ -42,7 +42,7 @@
 
 .imageContainer {
   width: 100%;
-  height: 60%;
+  height: 65%;
   overflow: hidden;
   background-color: var(--light-gray);
 }
@@ -55,7 +55,7 @@
 
 .content {
   padding: var(--space-md);
-  height: 40%;
+  height: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
