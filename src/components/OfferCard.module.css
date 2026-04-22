@@ -1,0 +1,72 @@
+.card {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-sm);
+}
+
+.expiringSoonBadge {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  background-color: var(--warning-orange);
+  color: var(--white);
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-semibold);
+  padding: 4px var(--space-sm);
+  border-radius: var(--radius-sm);
+  z-index: 10;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  background-color: var(--light-gray);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: var(--space-md);
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discount {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--forest-green);
+  margin-bottom: 2px;
+}
+
+.title {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+  color: var(--charcoal);
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.expiration {
+  font-size: var(--font-size-caption);
+  color: var(--medium-gray);
+}

@@ -1,0 +1,132 @@
+.item {
+  border-bottom: 1px solid var(--light-gray);
+  background: var(--white);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.2s;
+}
+
+.header:active {
+  background-color: var(--mint-cream);
+}
+
+.headerContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.date {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+  color: var(--charcoal);
+}
+
+.store {
+  font-size: var(--font-size-body);
+  color: var(--medium-gray);
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+.amount {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--forest-green);
+}
+
+.points {
+  font-size: var(--font-size-body);
+  color: var(--sage-green);
+  font-weight: var(--font-weight-semibold);
+}
+
+.impact {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-caption);
+  color: var(--dark-sage);
+  margin-top: 2px;
+}
+
+.leafIcon {
+  color: var(--sage-green);
+}
+
+.iconContainer {
+  margin-left: var(--space-md);
+}
+
+.chevron {
+  color: var(--medium-gray);
+}
+
+.expandedContent {
+  padding: 0 var(--space-md) var(--space-lg) var(--space-md);
+  background-color: var(--mint-cream);
+}
+
+.itemsTitle {
+  font-size: var(--font-size-body-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--forest-green);
+  margin-bottom: var(--space-sm);
+}
+
+.itemsList {
+  list-style: none;
+  margin-bottom: var(--space-lg);
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-sm) 0;
+  font-size: var(--font-size-body);
+}
+
+.itemName {
+  color: var(--charcoal);
+}
+
+.itemPrice {
+  color: var(--medium-gray);
+  font-weight: var(--font-weight-semibold);
+}
+
+.impactDetails {
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--light-gray);
+}
+
+.impactTitle {
+  font-size: var(--font-size-body-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--forest-green);
+  margin-bottom: var(--space-sm);
+}
+
+.impactStats {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  font-size: var(--font-size-body);
+  color: var(--dark-sage);
+}

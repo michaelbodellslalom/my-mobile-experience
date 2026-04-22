@@ -1,0 +1,52 @@
+.history {
+  padding-top: var(--space-lg);
+}
+
+.pageTitle {
+  margin-bottom: var(--space-lg);
+}
+
+.impactSummary {
+  background: linear-gradient(135deg, var(--light-sage) 0%, var(--sage-green) 100%);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  color: var(--white);
+}
+
+.impactSummary h3 {
+  color: var(--white);
+  margin-bottom: var(--space-md);
+  font-size: var(--font-size-h3);
+}
+
+.impactStats {
+  display: flex;
+  gap: var(--space-xl);
+}
+
+.impactStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.impactIcon {
+  font-size: 32px;
+}
+
+.impactValue {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+}
+
+.impactLabel {
+  font-size: var(--font-size-caption);
+  opacity: 0.9;
+}
+
+.transactionsList {
+  display: flex;
+  flex-direction: column;
+}

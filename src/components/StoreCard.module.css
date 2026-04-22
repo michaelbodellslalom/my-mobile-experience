@@ -1,0 +1,106 @@
+.card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-lg);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-sm);
+}
+
+.storeName {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
+  color: var(--forest-green);
+  flex: 1;
+}
+
+.distance {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-bold);
+  color: var(--sage-green);
+  margin-left: var(--space-md);
+}
+
+.status {
+  margin-bottom: var(--space-md);
+}
+
+.statusOpen {
+  color: var(--success-green);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+}
+
+.statusClosed {
+  color: var(--medium-gray);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+}
+
+.address {
+  margin-bottom: var(--space-lg);
+  color: var(--charcoal);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+}
+
+.phone {
+  color: var(--forest-green);
+  margin-top: var(--space-sm);
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  background-color: var(--forest-green);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+  min-height: var(--button-height);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.button:active {
+  transform: scale(0.98);
+  background-color: var(--dark-sage);
+}
+
+.buttonSecondary {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  background-color: var(--white);
+  color: var(--forest-green);
+  border: 2px solid var(--forest-green);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+  min-height: var(--button-height);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.buttonSecondary:active {
+  transform: scale(0.98);
+  background-color: var(--mint-cream);
+}

@@ -1,0 +1,24 @@
+.offers {
+  padding-top: var(--space-lg);
+}
+
+.pageTitle {
+  margin-bottom: var(--space-sm);
+}
+
+.subtitle {
+  color: var(--medium-gray);
+  margin-bottom: var(--space-lg);
+}
+
+.offersGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .offersGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

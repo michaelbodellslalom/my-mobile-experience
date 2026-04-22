@@ -1,0 +1,18 @@
+.stores {
+  padding-top: var(--space-lg);
+}
+
+.pageTitle {
+  margin-bottom: var(--space-sm);
+}
+
+.subtitle {
+  color: var(--medium-gray);
+  margin-bottom: var(--space-lg);
+}
+
+.storesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
