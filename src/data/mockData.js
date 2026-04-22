@@ -63,7 +63,7 @@ export const offers = [
     discount: 'Buy 2 Get 1 Free',
     description: 'Organic kombucha, any flavor',
     expirationDate: '2026-04-30',
-    imageUrl: 'https://images.unsplash.com/photo-1603833797131-3c0d67b2e753?w=400&h=400&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop',
     category: 'Beverages',
     terms: 'Equal or lesser value. Mix and match flavors.',
   },
