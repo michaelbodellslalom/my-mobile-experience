@@ -47,16 +47,21 @@
 
 .address {
   margin-bottom: var(--space-lg);
+  color: var(--charcoal);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
   flex: 1;
+}
+
+.phone {
+  color: var(--forest-green);
+  margin-top: var(--space-sm);
 }
 
 .actions {
   display: flex;
   gap: var(--space-md);
-  margin-top: auto
-.actions {
-  display: flex;
-  gap: var(--space-md);
+  margin-top: auto;
 }
 
 .button {
