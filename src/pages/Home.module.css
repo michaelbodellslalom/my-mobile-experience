@@ -1,6 +1,6 @@
 .home {
   padding-top: var(--space-lg);
-  padding-bottom: var(--space-xl);
+  padding-bottom: calc(var(--bottom-nav-height) + var(--space-xl));
 }
 
 .dashboardGrid {
